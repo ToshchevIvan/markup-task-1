@@ -1,29 +1,37 @@
-body {
+body
+{
     width: 50%;
     padding: 10pt;
 }
 
-main {
+main
+{
     padding: 15pt;
     margin: 15pt 0;
     background-color: #f1f1f1;
     border-radius: 10pt;
 }
 
-header#main_header {
+#main_header
+{
     text-align: center;
 }
 
-footer {
+footer
+{
     text-align: right;
     margin: 0 10pt;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3
+{
     font-family: sans-serif;
 }
 
-article code.code_block {
+article code.code_block
+{
     margin: 0;
     padding: 0 10pt;
     display: block;
@@ -31,26 +39,31 @@ article code.code_block {
     background-color: #dfdfdf;
 }
 
-article table {
+article table
+{
     width: 100%;
     text-align: center;
     border: solid gray 1pt;
 }
 
-main article header.article_header p {
+main article header.article_header p
+{
     font-style: italic;
 }
 
-article section {
+article section
+{
     margin-top: 30pt;
     margin-bottom: 0;
 }
 
-main article address {
+main article address
+{
     margin: 10pt 0;
 }
 
-main section#section_comments article {
+#section_comments article
+{
     padding: 2pt 10pt;
     margin-bottom: 5pt;
     border-radius: 1pt;
@@ -59,6 +72,7 @@ main section#section_comments article {
     box-shadow: 0 1pt 1pt 0 #bbb;
 }
 
-main section#section_comments article p {
+#section_comments article p
+{
     padding-left: 10pt;
 }
