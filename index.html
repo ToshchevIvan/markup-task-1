@@ -182,14 +182,17 @@ var totalTime = this.timings['look-ma-finish'] - <wbr>this.timings['look-ma-im-s
                 инициализировать <var>H<sub>0</sub></var><br>
                 <var>k = 0</var><br>
                 <strong>while</strong> ||&#9661;<var>f<sub>k</sub></var>|| <var>&gt; &epsilon;</var><br>
-                    &nbsp;&nbsp;&nbsp;найти направление <var>p<sub>k</sub>=-C<sub>k</sub>&#9661;f<sub>k</sub></var><br>
-                    &nbsp;&nbsp;&nbsp;вычислить <var>x<sub>k+1</sub> = x<sub>k</sub> + &alpha;<sub>k</sub>p<sub>k</sub>,
-                    &alpha;<sub>k</sub></var> удовлетворяет условиям Вольфе<br>
-                    &nbsp;&nbsp;&nbsp;обозначить <var>s<sub>k</sub> = x<sub>k+1</sub> &minus; x<sub>k</sub></var> и
-                    <var>y<sub>k</sub> =
-                        &#9661;f<sub>k+1</sub> &minus; &#9661;f<sub>k</sub></var><br>
-                    &nbsp;&nbsp;&nbsp;вычислить <var>C<sub>k+1</sub></var><br>
-                    &nbsp;&nbsp;&nbsp;<var>k = k + 1</var><br>
+                &nbsp;&nbsp;&nbsp;найти направление
+                <var>p<sub>k</sub>=-C<sub>k</sub>&#9661;f<sub>k</sub></var><br>
+                &nbsp;&nbsp;&nbsp;вычислить <var>x<sub>k+1</sub> = x<sub>k</sub> +
+                &alpha;<sub>k</sub>p<sub>k</sub>,
+                &alpha;<sub>k</sub></var> удовлетворяет условиям Вольфе<br>
+                &nbsp;&nbsp;&nbsp;обозначить <var>s<sub>k</sub> = x<sub>k+1</sub> &minus; x<sub>k</sub></var>
+                и
+                <var>y<sub>k</sub> =
+                    &#9661;f<sub>k+1</sub> &minus; &#9661;f<sub>k</sub></var><br>
+                &nbsp;&nbsp;&nbsp;вычислить <var>C<sub>k+1</sub></var><br>
+                &nbsp;&nbsp;&nbsp;<var>k = k + 1</var><br>
                 <strong>end</strong>
             </code>
             <p>
