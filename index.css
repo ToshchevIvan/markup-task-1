@@ -12,11 +12,6 @@ main
     border-radius: 10pt;
 }
 
-#main_header
-{
-    text-align: center;
-}
-
 footer
 {
     text-align: right;
@@ -62,7 +57,7 @@ main article address
     margin: 10pt 0;
 }
 
-#section_comments article
+.section_comments article
 {
     padding: 2pt 10pt;
     margin-bottom: 5pt;
@@ -72,7 +67,12 @@ main article address
     box-shadow: 0 1pt 1pt 0 #bbb;
 }
 
-#section_comments article p
+.section_comments article p
 {
     padding-left: 10pt;
+}
+
+.main_header
+{
+    text-align: center;
 }
