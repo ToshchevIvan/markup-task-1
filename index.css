@@ -76,3 +76,7 @@ main article address
 {
     text-align: center;
 }
+
+.ul_empty {
+    list-style-type: none;
+}
